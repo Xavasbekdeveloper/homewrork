@@ -3,9 +3,121 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Logoipsum</title>
+
+    <link rel="stylesheet" href="./css/style.min.css">
 </head>
 <body>
-    <h1>homework</h1>
+
+    <header>
+        <nav class="navbar">
+            <div class="container nav__container">
+                <a href="index.html">
+                    <img src="./img/Logo (5).svg" alt="logo img">
+                </a>
+
+                <form class="form">
+                    <input class="search" type="search" placeholder="Search bar">
+                </form>
+
+                <div class="header__right">
+                    <div class="header__dropdowns">
+                        <div class="header__dropdown">
+                            <div class="header__dropdown__box">
+                                <p class="header__dropdown__box--text">Category</p>
+                                <img src="./img/dropdown.svg" alt="img">
+                            </div>
+                            <ul class="header__dropdown__list"> 
+                                <li class="header__dropdown__list__item">
+                                    <a class="header__dropdown__list__item__link" href="#">dropdown</a>
+                                </li>
+                                <li class="header__dropdown__list__item">
+                                    <a class="header__dropdown__list__item__link" href="#">dropdown</a>
+                                </li>
+                                <li class="header__dropdown__list__item">
+                                    <a class="header__dropdown__list__item__link" href="#">dropdown</a>
+                                </li>
+                                <li class="header__dropdown__list__item">
+                                    <a class="header__dropdown__list__item__link" href="#">dropdown</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+    
+                    <p class="header__right--text">Become an Mentor</p>
+
+                    <div class="link__box">
+                        <a class="link__box__link" href="#">Login</a>
+                        <a class="link__box__link" href="#">Sign Up</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero__container">
+                <div class="hero__left">
+                    <h1 class="hero__left-title">Find the Best Courses and Amazing Mentor</h1>
+                    <p class="hero__left-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit <br> amet luctus venenatis, lectus magna
+                    fringilla urna, porttitor rhoncus</p>
+                    <div class="hero__left__form">
+                        <form>
+                            <input class="hero__left__form-search" type="search" placeholder="Type in the course you want to learn">
+                        </form>
+                        <button class="hero__left__form-search-btn" type="submit">Search</button>
+                    </div>
+                    <div class="hero__left__box">
+                        <div class="hero__left__box__item">
+                            <img src="./img/access_alarm.svg" alt="">
+                            <p class="hero__left__box__item-text">Life Time Acces</p>
+                        </div>
+                        <div class="hero__left__box__item">
+                            <img src="./img/user.svg" alt="">
+                            <p class="hero__left__box__item-text">Expert Mentor</p>
+                        </div>
+                        <div class="hero__left__box__item">
+                            <img src="./img/video_library.svg" alt="">
+                            <p class="hero__left__box__item-text">100K+ Courses</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero__right">
+                    <img class="hero__right__img" src="./img/Image Place Holder.png" alt="img">
+                    <img class="hero__right__bell-img" src="./img/Bell Icon.png" alt="img">
+                    <img class="hero__right__ver-img" src="./img/Verification Icon.png" alt="img">
+                    <img class="hero__right__love-img" src="./img/Love Icon.png" alt="img">
+                    <img class="hero__right__review-img" src="./img/Review.png" alt="img">
+                </div>
+            </div>
+        </section>
+
+        <section class="trend">
+            <div class="container trend__container">
+                <h2 class="trend__title">Trending Courses</h2>
+                <div class="ap-tab">
+                    <ul class="ap-tab-list">
+                        <li class="ap-tab-item"><a class="ap-tab-link" href="#">All</a></li>
+                        <li class="ap-tab-item"><a class="ap-tab-link" href="#">Business</a></li>
+                        <li class="ap-tab-item"><a class="ap-tab-link" href="#">Art & Design</a></li>
+                        <li class="ap-tab-item"><a class="ap-tab-link" href="#">Development</a></li>
+                        <li class="ap-tab-item"><a class="ap-tab-link" href="#">Marketing</a></li>
+                    </ul>
+                </div>
+                <div class="ap-tab-container">
+                    <div class="ap-tab-content">
+                       
+                    </div>
+                   
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+    <script src="https://cdn.jsdelivr.net/gh/abdulazizcreator/ap-tab/main.js"></script>
 </body>
 </html>

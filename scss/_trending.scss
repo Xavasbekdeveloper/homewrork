@@ -1,0 +1,20 @@
+.ap-tab-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.ap-tab-link {
+    padding: 8px 35px;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #aaaa;
+    border-radius: 8px;
+    &:focus {
+        color: #fff;
+        background-color: $bg-py;
+    }
+}

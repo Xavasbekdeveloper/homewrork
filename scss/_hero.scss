@@ -1,0 +1,108 @@
+.hero {
+    background-image: url(../img/Background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 60px;
+    margin-bottom: 100px;
+}
+
+.hero__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero__left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    &-title {
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 88px;
+        letter-spacing: 0em;
+        max-width: 610px;
+        color: #fff;
+        margin-bottom: 24px;
+    }
+
+    &-text {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: 0em;
+        color: #fff;
+        margin-bottom: 66px;
+        max-width: 647px;
+    }
+
+    &__form {
+        background-color: #fff;
+        padding: 12px 16px;
+        display: flex;
+        align-items: center;
+        border-radius: 8px;
+        gap: 120px;
+        margin-bottom: 56px;
+        &-search {
+            padding: 20px ;
+            padding-left: 25px;
+            outline: none;
+            border: none;
+            background-image: url(../img/Search.svg);
+            background-repeat: no-repeat;
+            background-position: left center;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 27px;
+            letter-spacing: 0em;
+        }
+
+        &-search-btn {
+            @include link()
+        }
+    }
+
+    &__box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 48px;
+        &__item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            &-text {
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 24px;
+                letter-spacing: 0em;
+                color: #fff;
+            }
+        }
+    }
+}
+
+.hero__right {
+    position: relative;
+   &__bell-img {
+        position: absolute;
+        top: 50px;
+        left: 50px;
+   }
+   &__ver-img {
+        position: absolute;
+        top: 300px;
+        right: 0px;
+   }
+   &__love-img {
+        position: absolute;
+        top: 380px;
+        left: 30px;
+   }
+   &__review-img {
+        position: absolute;
+        bottom: 50px;
+        right: 30px;
+   }
+}
